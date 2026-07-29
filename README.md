@@ -266,15 +266,6 @@ uv run ruff check src/ tests/
 uv run ruff format src/ tests/
 ```
 
-### Publishing
-
-```bash
-# build sdist + wheel
-uv build
-
-# publish to PyPI (needs PYPI_TOKEN or UV_PUBLISH_TOKEN)
-uv publish
-```
 
 ---
 
